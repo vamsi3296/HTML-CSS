@@ -1,0 +1,8 @@
+/*.container{
+	display: flex;
+	justify-content: space-evenly;
+}*/
+
+.search {
+	flex: 1;
+}

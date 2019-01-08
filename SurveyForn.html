@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<!-- <link rel="stylesheet" type="text/css" href="SurveyFStyle.css"> -->
+</head>
+<body>
+	<h1 id="title">Survey Form</h1>
+	<p id="description">Short description about the page.</p>
+	<form id="survey-form">
+		<div>
+			<label id="name-label">Name: </label>
+			<input type="text" name="name" id="name" placeholder="Full Name" required>
+		</div>
+		<div>
+			<label id="email-label">Email: </label>
+			<input type="email" name="email" id="email" placeholder="youremail@something.com" required>
+		</div>
+		<div>
+			<label id="number-label">Age: </label>
+			<input id="number" type="number" name="number" min="0" max="10" placeholder="Age"required>
+		</div>
+		<div>
+			<select name="cars" id="dropdown">
+				<option value="volvo">Volvo</option>
+				<option value="jeep">Jeep</option>
+			</select>
+		</div>
+		<div>
+			<p>Select a pet you like: </p>
+			<div>
+				<input type="radio" name="pet" value="cat" checked>
+				<label>cat</label>
+			</div>
+			<div>
+				<input type="radio" name="pet" value="dog">
+				<label>dog</label>
+			</div>
+		</div>
+		<div>
+			<input type="checkbox" name="option1" value="option1">
+			<label>option1</label>
+		</div>
+		<div>
+			<input type="checkbox" name="option2" value="option2">
+			<label>option2</label>
+		</div>
+		<div>
+			<textarea  name="comments">Comments</textarea>
+		</div>
+			<input id="submit" type="submit" name="submit">
+	</form>
+</body>
+</html>

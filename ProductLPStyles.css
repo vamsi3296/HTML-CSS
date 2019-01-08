@@ -1,0 +1,38 @@
+.body {
+	background-image: url('https://bit.ly/2ApHWbQ');
+	background-size: cover;
+	background-position: center;
+}
+
+#header-img{
+	object-fit: contain;
+	width: 3.5em;
+	height: 3.5em;
+}
+
+#header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: flex;
+}
+
+#nav-bar{
+	display: flex;
+	flex: 1;	
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+@media screen and (max-width: 700px) and (max-height: 1024px) {
+	#nav-bar{
+		flex-wrap: wrap;
+	}
+
+	#nav-link{
+		flex: 1 1 50%;
+	}
+}
